@@ -1,7 +1,13 @@
 aid: minoan
 name: Minoan
-description: 'Minoan is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Minoan is a hospitality procurement and shoppable-stays platform. Short-term-rental
+  hosts, property managers, hotels, and interior designers source furniture, decor, and home
+  goods at insider/trade pricing through Minoan''s purchasing platform, and earn revenue share
+  when guests buy the items they experienced during a stay. Founded to turn every hosted space
+  into a shoppable showroom, Minoan connects properties to hundreds of home-and-lifestyle brands
+  and handles sourcing, checkout, and fulfillment. Backed by Accel. As of this profile Minoan
+  exposes no public developer API; this record captures its public web, security, and llms.txt
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/minoan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,18 +15,61 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Hospitality
+- Ecommerce
+- Procurement
+- Short-Term Rental
+- Home Decor
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://storage.googleapis.com/minoan-images/minoan%20website%20redesign/hero_image.webp
 common:
 - type: Website
-  url: https://www.minoanexperience.com/
+  url: https://minoan.com/
+- type: Blog
+  url: https://minoan.com/blog
+- type: SignUp
+  url: https://minoan.com/join-us
+- type: TermsOfService
+  url: https://minoan.com/terms
+- type: PrivacyPolicy
+  url: https://minoan.com/privacy
+- type: LLMsTxt
+  url: llms/minoan-llms.txt
+- type: WellKnown
+  url: well-known/minoan-well-known.yml
+- type: SecurityTxt
+  url: well-known/minoan-security.txt
+- type: VulnerabilityDisclosure
+  url: security/minoan-vulnerability-disclosure.yml
+- type: Security
+  url: https://minoan.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/minoan-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
